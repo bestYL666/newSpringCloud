@@ -1,0 +1,9 @@
+# 项目排除路径
+/SpringCloud/cloud-consumer-order80/target/
+/SpringCloud/cloud-getaway-9527/target/
+/SpringCloud/cloud-hystrix-payment8001/target/
+/SpringCloud/consumer-fegin-order80/target/
+/SpringCloud/HystrixDashbord/target/
+/SpringCloud/payment8001/target/
+/SpringCloud/payment8002/target/
+/SpringCloud/spring-config3344/target/

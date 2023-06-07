@@ -1,0 +1,25 @@
+server:
+  port: 8000
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+
+ribbon:
+  ReadTimeOut: 2000
+  ConnectTimeOut: 2000
+spring:
+  application:
+    name: cloud-order-service
+feign:
+  hystrix:
+    enabled: true
+
+
+
+
