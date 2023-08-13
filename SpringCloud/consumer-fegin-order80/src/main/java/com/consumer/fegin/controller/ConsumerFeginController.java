@@ -24,7 +24,7 @@ public class ConsumerFeginController {
     public CommonResult<String> getPaymentById(@RequestBody Payment payment){
 
         String paymentById = paymentFeginService.paymentInfo_OK(payment);
-        return new CommonResult<>(200,paymentById);
+        return new CommonResult<>(200,paymentById,null);
     }
 
 
@@ -32,9 +32,9 @@ public class ConsumerFeginController {
     public CommonResult<String> getPaymentTimeOut(@PathVariable("id") Long id){
         String paymentById = paymentFeginService.paymentInfo_TimeOut(id);
         if(paymentById.indexOf("超时")!=-1){
-            return new CommonResult<>(444,paymentById);
+            return new CommonResult<>(444,paymentById,null);
         }
-        return new CommonResult<>(200,paymentById);
+        return new CommonResult<>(200,paymentById,null);
     }
 
 }

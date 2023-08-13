@@ -32,11 +32,11 @@ public class PaymentServiceImpl implements PaymentService {
     @Override
 
     public Payment getPaymentById(Long id) {
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            TimeUnit.SECONDS.sleep(2);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
         return paymentDao.getPaymentById(id);
     }
 

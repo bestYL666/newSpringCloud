@@ -17,6 +17,18 @@ spring:
       idle-timeout: 600000
       maximum-pool-size: 10
       connection-timeout: 3000
+  rabbitmq:
+    host: 192.168.86.149
+    port: 5672
+    username: root
+    password: root
+    virtual-host: my_vhost
+    cloud:
+      stream:
+        binders: #在此处配置要绑定的rabbitmq的服务信息
+          defaultRabbit: #表示定义的名称，用于binding整合
+            type: rabbit #消息组件类型
+
 
 eureka:
   client:

@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01cb2604-bc8a-428e-bdc3-983248c9c811" name="变更" comment="" />
+    <list default="true" id="01cb2604-bc8a-428e-bdc3-983248c9c811" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/api/commoms/exceptions/BussException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/api/commons/entities/QueueEntites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitMq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitMq/src/main/java/com/SpringCloud/Product/ProductQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/SpringCloudTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/SpringCloudTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/api/commons/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/api/commons/entities/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-fegin-order80/src/main/java/com/consumer/fegin/controller/ConsumerFeginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-fegin-order80/src/main/java/com/consumer/fegin/controller/ConsumerFeginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/com/SpringCloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/com/SpringCloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/src/main/java/SpringCloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/src/main/java/SpringCloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/src/main/java/SpringCloud/service/imp/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/src/main/java/SpringCloud/service/imp/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,20 +42,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\workplace" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.6" />
+        <option name="localRepository" value="F:\maven\workspace" />
+        <option name="mavenHome" value="D:/maven3.9/apache-maven-3.9.3" />
         <option name="useMavenConfig" value="true" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\maven3.9\apache-maven-3.9.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -51,17 +76,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "jdk1.8.0_271",
-    "last_opened_file_path": "D:/eclipse/project",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/SpringCloudTest2/SpringCloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "spring.configuration.checksum": "5515bcd52af3e0cedc15007305808967"
+    "project.structure.side.proportion": "0.38390803",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "c7fce2255445519a7309947cb0194f06",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,9 +96,72 @@
       <recent name="com.SpringCloud.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.115转存助手ui优化版 v3.1.js">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CloudEurekaServer7001Application">
     <configuration name="115转存助手ui优化版 v3.1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$USER_HOME$/AppData/Local/Temp/Temp1_115转存助手ui优化版 v3.1.zip/115转存助手ui优化版 v3.1/115转存助手ui优化版 v3.1.js" working-dir="$USER_HOME$/AppData/Local/Temp/Temp1_115转存助手ui优化版 v3.1.zip/115转存助手ui优化版 v3.1">
       <method v="2" />
+    </configuration>
+    <configuration name="CloudEurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.cloudeurekaserver7001.CloudEurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.cloudeurekaserver7002.CloudEurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-config3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.ConfigMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="consumer-fegin-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.fegin.ConsumerFeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gataway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-getaway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringCloud.Gataway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashbord9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HystrixDashbord" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.HystrixDashbord9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringCloud.Hystrix.HystrixMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringCloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="payment8001" />
@@ -87,10 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringCloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.115转存助手ui优化版 v3.1.js" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Node.js.115转存助手ui优化版 v3.1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -104,10 +200,32 @@
       <updated>1679728460564</updated>
       <workItem from="1679728463301" duration="19125000" />
       <workItem from="1680146858790" duration="1892000" />
+      <workItem from="1690619652950" duration="4401000" />
+      <workItem from="1691225238252" duration="8682000" />
+      <workItem from="1691909343761" duration="6133000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="变更" />
+    <option name="LAST_COMMIT_MESSAGE" value="变更" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

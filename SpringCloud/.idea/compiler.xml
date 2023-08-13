@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HystrixDashbord" />
+        <module name="payment8002" />
+        <module name="cloud-eureka-server7001" />
+        <module name="spring-config3344" />
+        <module name="cloud-hystrix-payment8001" />
+        <module name="cloud-eureka-server7002" />
+        <module name="consumer-fegin-order80" />
+        <module name="cloud-consumer-order80" />
+        <module name="rabbitMq" />
+        <module name="commons" />
+        <module name="payment8001" />
+        <module name="cloud-getaway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="untitled" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-getaway" target="1.8" />
+      <module name="cloud-hystrix-payment8001" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="consumer-fegin-order80" target="1.8" />
+      <module name="HystrixDashbord" target="1.8" />
+      <module name="payment8001" target="1.8" />
+      <module name="payment8002" target="1.8" />
+      <module name="rabbitMq" target="1.8" />
+      <module name="spring-config3344" target="1.8" />
+      <module name="SpringCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
